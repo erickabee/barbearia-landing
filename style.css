@@ -8,5 +8,22 @@
 
 @media(max-width:700px){.hero h1 em br:first-child{display:block}}
 
-/* Imagens em alta definição */
-.hero-art{background-image:url('assets/entrada-hd.webp');background-size:100% auto;background-position:center top}.map-art{background-image:url('assets/localizacao.svg');background-size:cover;background-position:center;opacity:1}@media(min-width:1700px){.hero-art{background-position:center top;background-size:cover}}@media(max-width:700px){.hero-art{background-size:1100px auto;background-position:center top}}
+.map-art{background-image:url('assets/localizacao.svg');background-size:cover;background-position:center;opacity:1}
+/* Composição própria para a apresentação no celular */
+@media(max-width:700px){
+ header{padding:0 18px;height:64px}header nav{top:64px}header>.button{min-height:40px}.menu{width:40px;height:40px}
+ .hero-copy>p:not(.eyebrow){font-size:14px;line-height:1.6;max-width:310px;margin:14px 0 20px}
+ .hero-copy>p br{display:none}.hero .button{width:100%;min-height:50px;font-size:12px}.hero .scroll{display:none}
+ .section{padding-top:34px}.intro{font-size:13px}.service p{font-size:13px}.service{min-height:215px}.social{min-width:44px;min-height:44px}
+}
+@media(max-width:360px){.hero-copy{padding-left:18px;padding-right:18px}.brand{font-size:10px}}
+/* Fundo integral: foto dedicada por dispositivo em vez de recorte forçado da mesma imagem */
+.hero-art{background-image:url('assets/fundo-desktop.webp');background-size:cover;background-position:center;position:absolute;inset:0;width:100%;height:100%;aspect-ratio:auto}
+.hero-copy{width:48%;background:linear-gradient(90deg,#09090990,transparent);padding-left:6%;padding-top:2%}
+@media(max-width:700px){
+.hero{height:690px;min-height:690px;display:block}
+.hero-art{position:absolute;inset:0;width:100%;height:100%;aspect-ratio:auto;background-image:url('assets/fundo-mobile.webp');background-size:cover;background-position:center top}
+.hero-copy{position:absolute;inset:0;width:100%;height:100%;padding:0 22px 30px;justify-content:flex-end;background:linear-gradient(0deg,#090909 0%,#090909c9 20%,transparent 53%)}
+.hero h1{font-size:clamp(44px,12.7vw,68px)}
+}
+@media(max-width:360px){.hero{height:650px;min-height:650px}}
