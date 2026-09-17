@@ -9,4 +9,4 @@
 @media(max-width:700px){.hero h1 em br:first-child{display:block}}
 
 /* Imagens em alta definição */
-.hero-art{background-image:url('assets/entrada-hd.webp');background-size:100% auto;background-position:center top}.map-art{background-image:url('assets/localizacao.svg');background-size:cover;background-position:center;opacity:1}@media(min-width:1700px){.hero-art{background-position:center top;background-size:cover}}@media(max-width:700px){.hero-art{background-size:1100px auto;background-position:right top}}
+.hero-art{background-image:url('assets/entrada-hd.webp');background-size:100% auto;background-position:center top}.map-art{background-image:url('assets/localizacao.svg');background-size:cover;background-position:center;opacity:1}@media(min-width:1700px){.hero-art{background-position:center top;background-size:cover}}@media(max-width:700px){.hero-art{background-size:1100px auto;background-position:center top}}
