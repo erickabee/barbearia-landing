@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="680" viewBox="0 0 1200 680">
+<defs><radialGradient id="bg"><stop stop-color="#1c1c1b"/><stop offset="1" stop-color="#101110"/></radialGradient><filter id="shadow"><feDropShadow dx="0" dy="5" stdDeviation="8" flood-opacity=".6"/></filter></defs>
+<rect width="1200" height="680" fill="url(#bg)"/>
+<g transform="rotate(-18 600 340)" fill="none" stroke-linecap="round">
+<path d="M-100 65H1400M-100 190H1400M-100 445H1400M-100 590H1400M90-300V1000M305-300V1000M875-300V1000M1090-300V1000" stroke="#30312e" stroke-width="9"/>
+<path d="M-100 310H1400M550-300V1000" stroke="#45423a" stroke-width="13"/>
+<path d="M-100 310H1400" stroke="#826636" stroke-width="2"/>
+<path d="M-100 123H1400M-100 515H1400M190-300V1000M410-300V1000M710-300V1000M980-300V1000" stroke="#222421" stroke-width="4"/>
+<path d="M610 190V310M710 310V445M305 370H550M875 370H1090M305 245H550M710 65V190M1090 250H1350" stroke="#272925" stroke-width="5"/>
+</g>
+<g filter="url(#shadow)"><rect x="550" y="245" width="310" height="72" rx="9" fill="#101110" stroke="#b78a3e" stroke-width="2"/>
+<text x="593" y="290" font-family="Arial,sans-serif" font-size="29" font-weight="700" fill="#faf7ef">Nicolas Cort’s</text>
+<path d="M552 332s-37-43-37-69a37 37 0 1 1 74 0c0 26-37 69-37 69Z" fill="#edb34e"/><circle cx="552" cy="263" r="12" fill="#161713"/>
+<rect x="407" y="415" width="405" height="64" rx="8" fill="#101110" stroke="#97733a" stroke-width="2"/><text x="609" y="455" text-anchor="middle" font-family="Arial,sans-serif" font-size="25" fill="#eeeae1">Na rua da padaria Coelho</text></g>
+<text x="28" y="645" font-family="Arial,sans-serif" font-size="17" fill="#8b8c83" letter-spacing="1">MAPA ILUSTRATIVO</text>
+</svg>

@@ -1,0 +1,16 @@
+NICOLAS CORT’S — VERSÃO RECONSTRUÍDA
+
+Extraia o ZIP e abra index.html. Mantenha a pasta assets junto dos demais arquivos.
+
+Composição recuperada do histórico: ambiente preto/dourado na entrada; quatro serviços com valores R$ 35, R$ 35, R$ 45 e R$ 65; cinco trabalhos; profissionais em cards grandes; chamada central; localização e rodapé.
+
+Agendamento geral: AppBarber do projeto original.
+Agendamento por profissional: WhatsApp com o nome de Nicolas ou Pedro na mensagem.
+Instagram de Nicolas e rodapé: @barbearia.nicolascorts.
+Instagram de Pedro: @barbearia_pedrinhocortes.
+WhatsApp: +55 11 99683-6429.
+
+A página foi reconstruída em HTML/CSS responsivo. A arte do ambiente foi substituída pela imagem em alta resolução enviada pelo usuário. O mapa ilustrativo foi redesenhado em SVG, com linhas e textos que permanecem nítidos ao ampliar. O mapa abre uma busca pelo endereço no Google Maps. Fotos, enquadramentos e espaçamentos podem diferir do mockup. Fontes do Google e destinos externos precisam de internet.
+
+Verificação: imagens carregadas, ausência de rolagem horizontal em 1280px e 390px, menu móvel e navegação entre seções. Os serviços externos não foram usados para concluir agendamentos.
+
