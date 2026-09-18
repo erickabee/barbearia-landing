@@ -1,1 +1,8 @@
 const button=document.querySelector('.menu');const nav=document.querySelector('header nav');button.addEventListener('click',()=>{const open=button.getAttribute('aria-expanded')!=='true';button.setAttribute('aria-expanded',String(open));button.setAttribute('aria-label',open?'Fechar menu':'Abrir menu');nav.classList.toggle('open',open)});nav.addEventListener('click',e=>{if(e.target.closest('a')){button.setAttribute('aria-expanded','false');button.setAttribute('aria-label','Abrir menu');nav.classList.remove('open')}});document.addEventListener('keydown',e=>{if(e.key==='Escape'){nav.classList.remove('open');button.setAttribute('aria-expanded','false')}});
+// Uma abertura sem âncora começa na apresentação, não na posição salva.
+if (!window.location.hash) {
+  if ('scrollRestoration' in history) history.scrollRestoration = 'manual';
+  const showStart = () => window.scrollTo({top: 0, left: 0, behavior: 'instant'});
+  showStart();
+  window.addEventListener('pageshow', showStart, {once: true});
+}
